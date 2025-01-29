@@ -1,0 +1,23 @@
+.bg{
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-top: 50px;     
+    border-radius: 5px;
+}
+.p-2{
+    background-color: rgb(177, 139, 235);
+    border: 1px solid rgb(2, 57, 2);
+    border-radius: 5px;
+    height: 50px;
+    color: black;
+}
+.inp{
+    margin-bottom: 20px;
+    width: 250px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.apple1{
+    background: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
+}

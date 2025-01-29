@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.help-container{
+    position: relative;
+    top: 70px;
+    border: 0.5px solid rgb(204, 200, 200);
+    border-radius: 0px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: left; 
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.custom-textarea {
+    resize: none;
+}
+h1 u{
+    color:rgb(200, 77, 77);
+    padding-bottom: 7px;
+}
+.extra{
+    border-radius: 0px; 
+    height: 45px;
+}
+.apple1{
+    background: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
+}
+.apple{
+    border: none;
+    border-radius: 0px;
+    background: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
+}
+.apple:hover{
+    background: linear-gradient(91.1deg,rgb(87, 8, 98) 103.4%,  rgb(92, 12, 135) 44.4%, rgb(57, 31, 105) -2.3%);
+}
+.gap{
+    margin: 10px 0px 10px 0px;
+}
+.foot{
+    position: relative;
+    top: 80px;
+}

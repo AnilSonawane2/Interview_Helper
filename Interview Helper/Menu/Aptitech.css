@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    height: fit-content;
+    
+}
+.outerdiv{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100;
+    height: fit-content;
+    
+    padding-left: 6.25rem;   /* 100px / 16 */
+    padding-right: 6.25rem;  /* 100px / 16 */
+    padding-top: 3.125rem;   /* 50px / 16 */
+    padding-bottom: 2.5rem;  /* 40px / 16 */   
+}
+
+.apple1{
+    background: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, rgb(231, 75, 184) 103.4%);
+}
+
+.box{
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(202, 145, 203);
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+}
+.box:hover{
+    transform: translateY(10px);
+
+}
+.para{
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(176, 3, 3);
+    text-decoration: underline blue;
+}
+
+.frame-all{
+    width: 560px;
+    height: 315px;
+}
+
+@media (max-width:666px){
+    .outerdiv{
+        width: 100;
+        height: fit-content;
+        display: inline-block;
+    }
+    .box{
+        width: 10.5rem;
+        height: 5.5rem;
+        margin-bottom: 100px;
+    }
+    .frame-all{
+        width: 250px;
+        height: 150px;
+    }
+}
